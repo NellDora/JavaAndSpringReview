@@ -1,0 +1,36 @@
+SpringFramework & SpringBoot
+
+SpringBoot : 스프링 프레임워크의 단점을 보완해서 만든 것
+
+SpringFramework => Spring + Framework
+ - Framework : 어떤 대상을 구성하는 구조/ 틀을 사용한 작업
+        => (SW) 기능을 클래스 / 인터페이스 형태로 미리 구현해놓은 형태를 사용하는 것
+
+	EJB (Enterprise Java Bean) 	=> 	Spring Framework
+	서버 중심				클라이언트중심(모바일 등장)
+	확장성, 유지보수			생산성, 안정성
+	중량프레임워크			경량프레임워크
+					(확장성 - 다른 프레임워크의 포용)
+
+*스프링 주요 개념
+	- EJB보다 가볍고, 배우기 쉽다.
+	- 제어의 역행 기술을해서 애플리케이션간의 느슨한 결합 제어 한다.
+	(Inversion of Control , IoC)
+	- 의존성 주입 기능을 사용 가능
+	 	(Dependency Injection, DI)
+	- 관점지향 프로그래밍을 지원
+	( Asecpect - Oriented Programming)
+		: 개발자는 개발에만 집중하게 하자 - > (ex) 보안 : 사용자가 신경써야하는 부수적인 부분들을 프레임워크가 대신 담당해주고 개발자는 개발에만 신경 쓸 수 있도록 지원
+	- 영속성 관련 다양한 서비스 지원
+	(Persistance)
+	- 다양한 라이브러리 지원
+	- POJO (Plain Old Java Object) 기반의 구성
+
+* 스프링 주요 기능
+ Spring Core : 다른 기능과 설정을 분리하기 위한 IoC 기능 제공
+ Spring Context : 스프링 기본기능, 애플리케이션에 있는 기능(빈-객체)을 접근하도록 기능을 제공
+ Spring DAO : JDBC 기능을 좀 더 편리하게 사용
+ Spring ORM : 영속성관련 프레임워크 연동 기능 제공(하이버네이트, 마이바티스)
+ Spring AOP : 관점지향 프로그래밍을 지원
+ Spring Web : 웹 개발에 필요한 기능을 제공
+ Spring WebMVC : 스프링 MVC 관련 기능 제공
